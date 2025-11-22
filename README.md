@@ -1,14 +1,26 @@
 # QFF25
 
-Crete local:
+# Crear entorno local:
 ``` bash
 conda env create --solver libmamba --file ICC25.yml --name ICC25
 conda init
 conda activate ICC25
 ```
+# Autores
 
+- Aldana Lescano Maier
+- Joaquín Hernández
+- Leandro BAtlle
 
-# ⭐ Operación: Caja Fuerte Cuántica
+# Resolución
+
+Ver [src/main.ipynb](https://github.com/eterX/QFF25/blob/extra-ruido/src/main.ipynb)
+
+- resuelto: Objetivo principal, y *extras*: simuladores con ruido, visualizaciones avanzadas.
+
+# Enunciado
+
+## ⭐ Operación: Caja Fuerte Cuántica
 
 En el laboratorio del FIUBA ocurrió un fallo inesperado: varias cajas fuertes cuánticas perdieron sus contraseñas. Ninguna se abre con métodos clásicos. Cada clave está escondida en una superposición de estados, y solo un algoritmo cuántico bien diseñado puede recuperarla.
 
@@ -23,7 +35,7 @@ No se entregará ningún Colab inicial ni funciones prearmadas. Ustedes decidir�
 
 ---
 
-## 🎯 Objetivo principal
+### 🎯 Objetivo principal
 
 El desafío consiste en:
 
@@ -35,7 +47,7 @@ El desafío consiste en:
 
 ---
 
-## ⭐ Bonus: Puntos extra
+### ⭐ Bonus: Puntos extra
 
 Los equipos pueden sumar puntos por:
 
@@ -50,7 +62,7 @@ Nada de esto es obligatorio, pero sí muy valorado.
 
 ---
 
-## 🎒 Las cajas especiales perdidas
+### 🎒 Las cajas especiales perdidas
 
 Además de la caja fuerte principal, el laboratorio dejó **cuatro cajas misteriosas**, cada una protegida por un oráculo más extraño que el anterior. No son obligatorias, pero quienes las resuelvan demostrarán verdadera maestría cuántica.
 
