@@ -1,0 +1,41 @@
+name: ICC25
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python >=3.12, <3.13
+  - anaconda
+  - anaconda-client
+  - anaconda-navigator
+  - anaconda-project
+  - certifi
+  - conda
+  - conda-build
+  - conda-content-trust
+  - conda-env
+  - conda-pack
+  - conda-package-handling
+  - conda-repo-cli
+  - conda-token
+  - conda-verify
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyter_server
+  - jupyterlab
+  - jupyterlab_pygments
+  - jupyterlab_server
+  - jupyterlab_widgets
+  - jupyterlab-git
+  - pip:
+    - pip
+    - pylatexenc
+    - qiskit
+    - qiskit_aer
+prefix: /opt/anaconda3
